@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_bg"
+    android:id="@+id/mainLayout">
+
+    <LinearLayout
+        android:weightSum="1920"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1263"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="657"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/more"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:src="@drawable/home_more" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="1920"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1341"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="579"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/talk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:src="@drawable/home_talk" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="1920"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="957"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="963"
+            android:layout_height="0dp"
+            android:layout_weight="963"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/shopping"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="767"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:src="@drawable/home_shopping" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="1920"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="551"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="1369"
+            android:layout_height="0dp"
+            android:layout_weight="1369"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/coupon"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="780"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:src="@drawable/home_coupon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="1920"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="533"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="1387"
+            android:layout_height="0dp"
+            android:layout_weight="1387"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="733"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:src="@drawable/home_video" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
